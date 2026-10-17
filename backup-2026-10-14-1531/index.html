@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lumine Jewels | Curated Fine Jewellery</title>
+<meta name="description" content="Discover hand-selected rings, necklaces, earrings, and bracelets. Order via WhatsApp or phone. Visit our Gem City showroom." />
+<meta property="og:title" content="Lumine Jewels | Curated Fine Jewellery" />
+<meta property="og:type" content="website" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site-header" role="banner">
+  <a href="#" class="logo" aria-label="Lumine Jewels home">
+    <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true" focusable="false"><circle cx="14" cy="14" r="10" fill="none" stroke="#A6823B" stroke-width="1.5"/><circle cx="14" cy="14" r="4" fill="#C8A878"/></svg>
+    <span>Lumine Jewels</span>
+  </a>
+  <nav aria-label="Primary">
+    <a href="collection.html">Catalog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="policy.html">Policy</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <a href="https://wa.me/15550142" class="whatsapp-nav" aria-label="Order on WhatsApp">WhatsApp</a>
+  <button type="button" id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">☰</button>
+</header>
+<div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile navigation">
+    <a href="collection.html">Catalog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="policy.html">Policy</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="https://wa.me/15550142">WhatsApp</a>
+  </div>
+
+<main id="main">
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-inner">
+      <h1>Lumine Jewels</h1>
+      <p class="tagline">Hand-selected gold, pearl & platinum — ordered directly from our Gem City showroom.</p>
+      <a href="#catalog" class="cta">Browse Collection</a>
+    </div>
+    <div class="hero-visual" aria-label="Placeholder hero ring" role="img">
+      <img src="images/hero-ring.jpg" alt="Lumine Jewels hero ring — sample" width="380" height="475" loading="eager" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+      <div class="image-fallback">
+        <span class="fallback-title">Lumine Jewels</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="featured-preview" aria-label="Featured collection preview">
+      <h2>Featured</h2>
+      <div class="featured-grid">
+        <article class="product-card" role="listitem" data-category="Rings" data-id="r1"><a href="#" class="product-image-link" aria-label="Solitaire Whisper "><div class="product-visual" aria-label="Placeholder for Solitaire Whisper" role="img"><img src="images/r1-solitaire-whisper.jpg" alt="Solitaire Whisper ring" width="200" height="250" loading="lazy"><div class="image-fallback"><span class="fallback-title">Solitaire Whisper</span></div></div></a><div class="product-meta"><h3>Solitaire Whisper</h3><p class="material">18k Gold</p><p class="price">$4,500</p><a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Solitaire%20Whisper." class="whatsapp-btn">Order</a></div></article>
+        <article class="product-card" role="listitem" data-category="Necklaces" data-id="n1"><a href="#" class="product-image-link" aria-label="Pearl Drop "><div class="product-visual" aria-label="Placeholder for Pearl Drop" role="img"><img src="images/n1-pearl-drop.jpg" alt="Pearl Drop necklace" width="200" height="250" loading="lazy"><div class="image-fallback"><span class="fallback-title">Pearl Drop</span></div></div></a><div class="product-meta"><h3>Pearl Drop</h3><p class="material">18k Gold & Pearl</p><p class="price">$5,200</p><a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Pearl%20Drop." class="whatsapp-btn">Order</a></div></article>
+        <article class="product-card" role="listitem" data-category="Bracelets" data-id="b1"><a href="#" class="product-image-link" aria-label="Tennis Bracelet "><div class="product-visual" aria-label="Placeholder for Tennis Bracelet" role="img"><img src="images/b1-tennis-bracelet.jpg" alt="Tennis Bracelet" width="200" height="250" loading="lazy"><div class="image-fallback"><span class="fallback-title">Tennis Bracelet</span></div></div></a><div class="product-meta"><h3>Tennis Bracelet</h3><p class="material">18k Gold</p><p class="price">$8,900</p><a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Tennis%20Bracelet." class="whatsapp-btn">Order</a></div></article>
+      </div>
+      <a href="collection.html" class="cta">View Full Collection →</a>
+    </div>
+  <div class="gold-thread" aria-hidden="true"></div>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container-footer">
+      <div>
+        <p>© <span id="year">2026</span> Lumine Jewels. All rights reserved.</p>
+        <p><a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </div>
+      <a href="#main" class="back-top" aria-label="Back to top">↑ Top</a>
+    </div>
+  </footer>
+</main>
+
+<script src="menu.js" defer></script>
+<script src="content.js"></script>
+<script src="app.js"></script>
+<script>if (document.getElementById('year')) { document.getElementById('year').textContent = new Date().getFullYear(); }</script>
+</body>
+</html>

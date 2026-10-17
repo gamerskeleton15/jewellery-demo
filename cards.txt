@@ -1,0 +1,201 @@
+
+    <div class="filter-bar" role="group" aria-label="Filter by category">
+      <button type="button" class="filter-pill active" data-filter="All" onclick="filterProducts('All', this)">All</button>
+      <button type="button" class="filter-pill" data-filter="Rings" onclick="filterProducts('Rings', this)">Rings</button>
+      <button type="button" class="filter-pill" data-filter="Necklaces" onclick="filterProducts('Necklaces', this)">Necklaces</button>
+      <button type="button" class="filter-pill" data-filter="Earrings" onclick="filterProducts('Earrings', this)">Earrings</button>
+      <button type="button" class="filter-pill" data-filter="Bracelets" onclick="filterProducts('Bracelets', this)">Bracelets</button>
+    </div>
+
+    <div class="product-grid" id="product-grid" role="list" aria-label="Products">
+      <!-- Cards generated from content.js by generate-cards.js -->
+      <!-- All 12 static cards embedded below -->
+      <article class="product-card" role="listitem" data-category="Rings" data-id="r1">
+        <a href="#" class="product-image-link" aria-label="Solitaire Whisper — 18k Gold, $4,500">
+          <div class="product-visual" aria-label="Placeholder for Solitaire Whisper" role="img">
+            <img src="images/r1-solitaire-whisper.jpg" alt="Solitaire Whisper ring — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Solitaire Whisper</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Solitaire Whisper</h3>
+          <p class="material">18k Gold</p>
+          <p class="price">$4,500</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Solitaire%20Whisper." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Rings" data-id="r2">
+        <a href="#" class="product-image-link" aria-label="Eternity Band — Platinum, $6,200">
+          <div class="product-visual" aria-label="Placeholder for Eternity Band" role="img">
+            <img src="images/r2-eternity-band.jpg" alt="Eternity Band ring — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Eternity Band</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Eternity Band</h3>
+          <p class="material">Platinum</p>
+          <p class="price">$6,200</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Eternity%20Band." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Rings" data-id="r3">
+        <a href="#" class="product-image-link" aria-label="Signet Heritage — 14k Gold, $3,800">
+          <div class="product-visual" aria-label="Placeholder for Signet Heritage" role="img">
+            <img src="images/r3-signet-heritage.jpg" alt="Signet Heritage ring — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Signet Heritage</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Signet Heritage</h3>
+          <p class="material">14k Gold</p>
+          <p class="price">$3,800</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Signet%20Heritage." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Necklaces" data-id="n1">
+        <a href="#" class="product-image-link" aria-label="Pearl Drop — 18k Gold & Pearl, $5,200">
+          <div class="product-visual" aria-label="Placeholder for Pearl Drop" role="img">
+            <img src="images/n1-pearl-drop.jpg" alt="Pearl Drop necklace — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Pearl Drop</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Pearl Drop</h3>
+          <p class="material">18k Gold & Pearl</p>
+          <p class="price">$5,200</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Pearl%20Drop." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Necklaces" data-id="n2">
+        <a href="#" class="product-image-link" aria-label="Diamond Station — 14k Gold, $7,800">
+          <div class="product-visual" aria-label="Placeholder for Diamond Station" role="img">
+            <img src="images/n2-diamond-station.jpg" alt="Diamond Station necklace — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Diamond Station</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Diamond Station</h3>
+          <p class="material">14k Gold</p>
+          <p class="price">$7,800</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Diamond%20Station." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Necklaces" data-id="n3">
+        <a href="#" class="product-image-link" aria-label="Locket Keepsake — Sterling Silver, $2,100">
+          <div class="product-visual" aria-label="Placeholder for Locket Keepsake" role="img">
+            <img src="images/n3-locket-keepsake.jpg" alt="Locket Keepsake necklace — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Locket Keepsake</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Locket Keepsake</h3>
+          <p class="material">Sterling Silver</p>
+          <p class="price">$2,100</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Locket%20Keepsake." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Earrings" data-id="e1">
+        <a href="#" class="product-image-link" aria-label="Stud Classics — 18k Gold, $2,900">
+          <div class="product-visual" aria-label="Placeholder for Stud Classics" role="img">
+            <img src="images/e1-stud-classics.jpg" alt="Stud Classics earrings — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Stud Classics</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Stud Classics</h3>
+          <p class="material">18k Gold</p>
+          <p class="price">$2,900</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Stud%20Classics." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Earrings" data-id="e2">
+        <a href="#" class="product-image-link" aria-label="Hoop Essentials — 14k Gold, $3,400">
+          <div class="product-visual" aria-label="Placeholder for Hoop Essentials" role="img">
+            <img src="images/e2-hoop-essentials.jpg" alt="Hoop Essentials earrings — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Hoop Essentials</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Hoop Essentials</h3>
+          <p class="material">14k Gold</p>
+          <p class="price">$3,400</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Hoop%20Essentials." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Earrings" data-id="e3">
+        <a href="#" class="product-image-link" aria-label="Chandelier Dream — Sterling Silver, $1,800">
+          <div class="product-visual" aria-label="Placeholder for Chandelier Dream" role="img">
+            <img src="images/e3-chandelier-dream.jpg" alt="Chandelier Dream earrings — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Chandelier Dream</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Chandelier Dream</h3>
+          <p class="material">Sterling Silver</p>
+          <p class="price">$1,800</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Chandelier%20Dream." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Bracelets" data-id="b1">
+        <a href="#" class="product-image-link" aria-label="Tennis Bracelet — 18k Gold, $8,900">
+          <div class="product-visual" aria-label="Placeholder for Tennis Bracelet" role="img">
+            <img src="images/b1-tennis-bracelet.jpg" alt="Tennis Bracelet — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Tennis Bracelet</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Tennis Bracelet</h3>
+          <p class="material">18k Gold</p>
+          <p class="price">$8,900</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Tennis%20Bracelet." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Bracelets" data-id="b2">
+        <a href="#" class="product-image-link" aria-label="Chain Link — Sterling Silver, $1,500">
+          <div class="product-visual" aria-label="Placeholder for Chain Link" role="img">
+            <img src="images/b2-chain-link.jpg" alt="Chain Link bracelet — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Chain Link</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Chain Link</h3>
+          <p class="material">Sterling Silver</p>
+          <p class="price">$1,500</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Chain%20Link." class="whatsapp-btn">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product-card" role="listitem" data-category="Bracelets" data-id="b3">
+        <a href="#" class="product-image-link" aria-label="Bangle Stack — 14k Gold, $4,200">
+          <div class="product-visual" aria-label="Placeholder for Bangle Stack" role="img">
+            <img src="images/b3-bangle-stack.jpg" alt="Bangle Stack bracelet — sample image" width="200" height="250" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="image-fallback"><span class="fallback-title">Bangle Stack</span><span class="img-sample-badge">Sample</span></div>
+          </div>
+        </a>
+        <div class="product-meta">
+          <h3>Bangle Stack</h3>
+          <p class="material">14k Gold</p>
+          <p class="price">$4,200</p>
+          <p class="note">Sample images — replace with real photos before launch.</p>
+          <a href="https://wa.me/15550142?text=Hi%20from%20Lumine%20Jewels%20interested%20in%20Bangle%20Stack." class="whatsapp-btn">Order on WhatsApp</a>

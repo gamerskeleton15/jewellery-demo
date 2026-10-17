@@ -1,0 +1,1 @@
+- [Backup rules](memory/backup-rules.md) — only important files (index, content.js, styles.css, images/, app.js) in dated backup folder
